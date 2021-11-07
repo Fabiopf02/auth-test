@@ -1,6 +1,7 @@
 # auth-test
 
 ### `/auth` POST
+https://auth-jwt-test.herokuapp.com/auth
 ```
   body {
     ...,
@@ -26,6 +27,7 @@
 ```
 
 ### `/private` POST
+https://auth-jwt-test.herokuapp.com/private
 ```
   header {
     Authorization: Bearer <token>,
