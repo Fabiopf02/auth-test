@@ -9,6 +9,6 @@ routes.post('/auth', AuthController);
 
 routes.use(authMiddleware);
 
-routes.post('/private', PrivateController);
+routes.get('/private', PrivateController);
 
 export { routes };

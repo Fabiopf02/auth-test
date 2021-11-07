@@ -25,7 +25,7 @@
   }
 ```
 
-### `/private` POST
+### `/private` GET
 ```
   header {
     Authorization: Bearer <token>,
